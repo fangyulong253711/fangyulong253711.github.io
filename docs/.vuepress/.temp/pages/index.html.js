@@ -26,7 +26,7 @@ export const data = {
         "link": "./home.html"
       }
     ],
-    "footer": "仰望星空,脚踏实地。",
+    "footer": "备案号 鄂ICP备19011705号-2",
     "summary": "<!-- 这是一个博客主页。 要使用此布局，你应该在页面前端设置 layout: Blog 和 home: true。 相关配置文档请见 博客主页。 -->",
     "head": [
       [
@@ -68,10 +68,22 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
-  "git": {},
   "readingTime": {
     "minutes": 0.17,
     "words": 50
   },
   "filePathRelative": "README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

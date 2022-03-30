@@ -91,10 +91,22 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
-  "git": {},
   "readingTime": {
     "minutes": 10.38,
     "words": 3115
   },
   "filePathRelative": "posts/cloudnative/云原生-Docker-存储.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

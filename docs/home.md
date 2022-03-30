@@ -14,7 +14,7 @@ actions:
     type: secondary
 
 copyright: false
-footer: MIT Licensed | Copyright © 2019-present Mr.Hope
+footer: 备案号 鄂ICP备19011705号-2  | Copyright © 2022-present 方玉龙
 ---
 
 云原生领域程序员，目前就职于阿里云。

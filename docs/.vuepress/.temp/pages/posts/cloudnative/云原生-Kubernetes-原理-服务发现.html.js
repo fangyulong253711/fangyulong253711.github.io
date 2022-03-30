@@ -112,10 +112,22 @@ export const data = {
       "children": []
     }
   ],
-  "git": {},
   "readingTime": {
     "minutes": 3.8,
     "words": 1140
   },
   "filePathRelative": "posts/cloudnative/云原生-Kubernetes-原理-服务发现.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

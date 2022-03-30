@@ -18,7 +18,7 @@ export const data = {
       }
     ],
     "copyright": false,
-    "footer": "MIT Licensed | Copyright © 2019-present Mr.Hope",
+    "footer": "备案号 鄂ICP备19011705号-2  | Copyright © 2022-present 方玉龙",
     "summary": "云原生领域程序员，目前就职于阿里云。 仰望星空，脚踏实地。 联系方式：QQ 3095329264",
     "head": [
       [
@@ -60,10 +60,22 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
-  "git": {},
   "readingTime": {
     "minutes": 0.1,
     "words": 30
   },
   "filePathRelative": "home.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

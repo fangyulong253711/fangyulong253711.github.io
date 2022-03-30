@@ -9,16 +9,14 @@ export const pagesComponents = {
   "v-0e503981": defineAsyncComponent(() => import(/* webpackChunkName: "v-0e503981" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/slide.html.vue")),
   // path: /posts/1.html
   "v-99340306": defineAsyncComponent(() => import(/* webpackChunkName: "v-99340306" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/posts/1.html.vue")),
-  // path: /posts/baseknowledge/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E9%9D%A2%E7%BB%8F.html
-  "v-cd1aa97a": defineAsyncComponent(() => import(/* webpackChunkName: "v-cd1aa97a" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/posts/baseknowledge/基础知识-操作系统-面经.html.vue")),
-  // path: /posts/baseknowledge/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E9%9D%A2%E7%BB%8F.html
-  "v-48d2a58d": defineAsyncComponent(() => import(/* webpackChunkName: "v-48d2a58d" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/posts/baseknowledge/基础知识-计算机网络-面经.html.vue")),
   // path: /posts/code/K8s-apiserver-run.html
   "v-1858945c": defineAsyncComponent(() => import(/* webpackChunkName: "v-1858945c" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/posts/code/K8s-apiserver-run.html.vue")),
   // path: /posts/code/K8s-informer-reflector.html
   "v-28aafbc8": defineAsyncComponent(() => import(/* webpackChunkName: "v-28aafbc8" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/posts/code/K8s-informer-reflector.html.vue")),
   // path: /posts/code/K8s-kubectl-run.html
   "v-af6d1ffe": defineAsyncComponent(() => import(/* webpackChunkName: "v-af6d1ffe" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/posts/code/K8s-kubectl-run.html.vue")),
+  // path: /posts/code/k8s-informer-SharedInformer.html
+  "v-25f4135b": defineAsyncComponent(() => import(/* webpackChunkName: "v-25f4135b" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/posts/code/k8s-informer-SharedInformer.html.vue")),
   // path: /posts/language/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80-go-%E5%8E%9F%E7%90%86%E7%9B%B8%E5%85%B3.html
   "v-c9884392": defineAsyncComponent(() => import(/* webpackChunkName: "v-c9884392" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/posts/language/编程语言-go-原理相关.html.vue")),
   // path: /posts/language/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80-java-dubbo.html
@@ -31,6 +29,10 @@ export const pagesComponents = {
   "v-1cc36fe2": defineAsyncComponent(() => import(/* webpackChunkName: "v-1cc36fe2" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/posts/language/编程语言-java-springboot进阶.html.vue")),
   // path: /posts/language/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80-java-springcloud.html
   "v-355c4aaa": defineAsyncComponent(() => import(/* webpackChunkName: "v-355c4aaa" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/posts/language/编程语言-java-springcloud.html.vue")),
+  // path: /posts/baseknowledge/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E9%9D%A2%E7%BB%8F.html
+  "v-cd1aa97a": defineAsyncComponent(() => import(/* webpackChunkName: "v-cd1aa97a" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/posts/baseknowledge/基础知识-操作系统-面经.html.vue")),
+  // path: /posts/baseknowledge/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E9%9D%A2%E7%BB%8F.html
+  "v-48d2a58d": defineAsyncComponent(() => import(/* webpackChunkName: "v-48d2a58d" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/posts/baseknowledge/基础知识-计算机网络-面经.html.vue")),
   // path: /posts/cloudnative/%E4%BA%91%E5%8E%9F%E7%94%9F-Docker-%E5%8E%9F%E7%90%86.html
   "v-511c7947": defineAsyncComponent(() => import(/* webpackChunkName: "v-511c7947" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/posts/cloudnative/云原生-Docker-原理.html.vue")),
   // path: /posts/cloudnative/%E4%BA%91%E5%8E%9F%E7%94%9F-Docker-%E5%AD%98%E5%82%A8.html
@@ -65,26 +67,20 @@ export const pagesComponents = {
   "v-154dc4c4": defineAsyncComponent(() => import(/* webpackChunkName: "v-154dc4c4" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/star/index.html.vue")),
   // path: /timeline/
   "v-01560935": defineAsyncComponent(() => import(/* webpackChunkName: "v-01560935" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/timeline/index.html.vue")),
-  // path: /category/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/
-  "v-3fe1292c": defineAsyncComponent(() => import(/* webpackChunkName: "v-3fe1292c" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/category/基础知识/index.html.vue")),
-  // path: /tag/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/
-  "v-7812146a": defineAsyncComponent(() => import(/* webpackChunkName: "v-7812146a" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/tag/计算机网络/index.html.vue")),
   // path: /category/%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/
   "v-05a92276": defineAsyncComponent(() => import(/* webpackChunkName: "v-05a92276" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/category/源码解读/index.html.vue")),
-  // path: /tag/%E9%9D%A2%E7%BB%8F/
-  "v-5626848a": defineAsyncComponent(() => import(/* webpackChunkName: "v-5626848a" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/tag/面经/index.html.vue")),
-  // path: /category/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/
-  "v-3df94dfd": defineAsyncComponent(() => import(/* webpackChunkName: "v-3df94dfd" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/category/编程语言/index.html.vue")),
-  // path: /tag/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/
-  "v-10a04a2f": defineAsyncComponent(() => import(/* webpackChunkName: "v-10a04a2f" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/tag/操作系统/index.html.vue")),
-  // path: /category/%E4%BA%91%E5%8E%9F%E7%94%9F/
-  "v-6193b4f4": defineAsyncComponent(() => import(/* webpackChunkName: "v-6193b4f4" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/category/云原生/index.html.vue")),
   // path: /tag/k8s/
   "v-b30ea152": defineAsyncComponent(() => import(/* webpackChunkName: "v-b30ea152" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/tag/k8s/index.html.vue")),
+  // path: /category/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/
+  "v-3df94dfd": defineAsyncComponent(() => import(/* webpackChunkName: "v-3df94dfd" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/category/编程语言/index.html.vue")),
   // path: /tag/apiserver/
   "v-42f6f280": defineAsyncComponent(() => import(/* webpackChunkName: "v-42f6f280" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/tag/apiserver/index.html.vue")),
+  // path: /category/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/
+  "v-3fe1292c": defineAsyncComponent(() => import(/* webpackChunkName: "v-3fe1292c" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/category/基础知识/index.html.vue")),
   // path: /tag/%E7%8E%AF%E5%A2%83/
   "v-e9bea91e": defineAsyncComponent(() => import(/* webpackChunkName: "v-e9bea91e" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/tag/环境/index.html.vue")),
+  // path: /category/%E4%BA%91%E5%8E%9F%E7%94%9F/
+  "v-6193b4f4": defineAsyncComponent(() => import(/* webpackChunkName: "v-6193b4f4" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/category/云原生/index.html.vue")),
   // path: /tag/go/
   "v-0da0c339": defineAsyncComponent(() => import(/* webpackChunkName: "v-0da0c339" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/tag/go/index.html.vue")),
   // path: /tag/cncf/
@@ -101,6 +97,12 @@ export const pagesComponents = {
   "v-28a1d8bf": defineAsyncComponent(() => import(/* webpackChunkName: "v-28a1d8bf" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/tag/java/index.html.vue")),
   // path: /tag/web/
   "v-b3026aae": defineAsyncComponent(() => import(/* webpackChunkName: "v-b3026aae" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/tag/web/index.html.vue")),
+  // path: /tag/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/
+  "v-7812146a": defineAsyncComponent(() => import(/* webpackChunkName: "v-7812146a" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/tag/计算机网络/index.html.vue")),
+  // path: /tag/%E9%9D%A2%E7%BB%8F/
+  "v-5626848a": defineAsyncComponent(() => import(/* webpackChunkName: "v-5626848a" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/tag/面经/index.html.vue")),
+  // path: /tag/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/
+  "v-10a04a2f": defineAsyncComponent(() => import(/* webpackChunkName: "v-10a04a2f" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/tag/操作系统/index.html.vue")),
   // path: /tag/docker/
   "v-6106c001": defineAsyncComponent(() => import(/* webpackChunkName: "v-6106c001" */"/Users/loganfang/go/gitee.com/blog/vuepress-starter/docs/.vuepress/.temp/pages/tag/docker/index.html.vue")),
   // path: /tag/%E7%BD%91%E7%BB%9C/

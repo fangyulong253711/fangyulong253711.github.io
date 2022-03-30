@@ -156,10 +156,22 @@ export const data = {
       ]
     }
   ],
-  "git": {},
   "readingTime": {
     "minutes": 21.63,
     "words": 6490
   },
   "filePathRelative": "posts/language/编程语言-go-原理相关.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

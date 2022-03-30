@@ -6,7 +6,7 @@ export default defineThemeConfig({
   hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
 
   author: {
-    name: "方玉龙(loganfang)",
+    name: "方玉龙",
     url: "https://mrhope.site",
   },
 
@@ -24,7 +24,7 @@ export default defineThemeConfig({
   // sidebar
   sidebar: sidebar,
 
-  footer: "仰望星空,脚踏实地。",
+  footer: "备案号 鄂ICP备19011705号-2 ",
 
   displayFooter: true,
 

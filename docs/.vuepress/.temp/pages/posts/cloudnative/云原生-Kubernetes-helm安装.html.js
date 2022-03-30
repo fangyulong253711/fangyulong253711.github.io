@@ -136,10 +136,22 @@ export const data = {
       ]
     }
   ],
-  "git": {},
   "readingTime": {
     "minutes": 0.94,
     "words": 282
   },
   "filePathRelative": "posts/cloudnative/云原生-Kubernetes-helm安装.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

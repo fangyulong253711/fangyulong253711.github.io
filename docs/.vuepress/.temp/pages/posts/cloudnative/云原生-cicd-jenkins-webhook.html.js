@@ -130,10 +130,22 @@ export const data = {
       "children": []
     }
   ],
-  "git": {},
   "readingTime": {
     "minutes": 4.71,
     "words": 1412
   },
   "filePathRelative": "posts/cloudnative/云原生-cicd-jenkins-webhook.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

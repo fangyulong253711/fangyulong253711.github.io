@@ -166,10 +166,22 @@ export const data = {
       "children": []
     }
   ],
-  "git": {},
   "readingTime": {
     "minutes": 16.28,
     "words": 4884
   },
   "filePathRelative": "posts/language/编程语言-java-springcloud.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

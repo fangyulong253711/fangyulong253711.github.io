@@ -56,6 +56,11 @@ export const themeData = {
                   "link": "K8s-informer-reflector.html"
                 },
                 {
+                  "text": "k8s-informer-SharedInformer",
+                  "icon": "code",
+                  "link": "k8s-informer-SharedInformer.html"
+                },
+                {
                   "text": "K8s-apiserver-run",
                   "icon": "code",
                   "link": "K8s-apiserver-run.html"
@@ -189,7 +194,7 @@ export const themeData = {
       "sidebarIcon": true,
       "headerDepth": 2,
       "author": {
-        "name": "方玉龙(loganfang)",
+        "name": "方玉龙",
         "url": "https://mrhope.site"
       },
       "logo": "/user.png",
@@ -207,6 +212,11 @@ export const themeData = {
               "icon": "calculate",
               "prefix": "code/",
               "children": [
+                {
+                  "text": "k8s-informer-SharedInformer",
+                  "icon": "code",
+                  "link": "k8s-informer-SharedInformer.html"
+                },
                 {
                   "text": "k8s-informer-reflector",
                   "icon": "code",
@@ -340,7 +350,7 @@ export const themeData = {
           ]
         }
       ],
-      "footer": "仰望星空,脚踏实地。",
+      "footer": "备案号 鄂ICP备19011705号-2 ",
       "displayFooter": true,
       "pageInfo": [
         "Author",
@@ -397,4 +407,17 @@ export const themeData = {
       }
     }
   }
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateThemeData) {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ themeData }) => {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  })
 }

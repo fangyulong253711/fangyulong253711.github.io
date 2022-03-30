@@ -28,192 +28,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "计算机网络汇总",
-    "headers": [
-      {
-        "level": 2,
-        "title": "应用层(应用,表示,会话)",
-        "slug": "应用层-应用-表示-会话",
-        "children": [
-          {
-            "level": 3,
-            "title": "http",
-            "slug": "http",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "https",
-            "slug": "https",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "DNS",
-            "slug": "dns",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "传输层",
-        "slug": "传输层",
-        "children": [
-          {
-            "level": 3,
-            "title": "TCP",
-            "slug": "tcp",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "UDP",
-            "slug": "udp",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "网络层",
-        "slug": "网络层",
-        "children": [
-          {
-            "level": 3,
-            "title": "ARP",
-            "slug": "arp",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "RARP",
-            "slug": "rarp",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "链路层",
-        "slug": "链路层",
-        "children": [
-          {
-            "level": 3,
-            "title": "以太网协议",
-            "slug": "以太网协议",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "MAC地址",
-            "slug": "mac地址",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "物理层",
-        "slug": "物理层",
-        "children": []
-      }
-    ],
-    "path": "/posts/baseknowledge/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E9%9D%A2%E7%BB%8F.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "操作系统",
-    "headers": [
-      {
-        "level": 2,
-        "title": "进程",
-        "slug": "进程",
-        "children": [
-          {
-            "level": 3,
-            "title": "进程 vs 线程",
-            "slug": "进程-vs-线程",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "进程调度",
-            "slug": "进程调度",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "守护、僵尸、孤儿进程的概念",
-            "slug": "守护、僵尸、孤儿进程的概念",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "进程通信",
-            "slug": "进程通信",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "内存",
-        "slug": "内存",
-        "children": [
-          {
-            "level": 3,
-            "title": "逻辑地址 Vs 物理地址 Vs 虚拟内存",
-            "slug": "逻辑地址-vs-物理地址-vs-虚拟内存",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "锁",
-        "slug": "锁",
-        "children": [
-          {
-            "level": 3,
-            "title": "请问死锁的条件是什么？以及如何处理死锁问题？",
-            "slug": "请问死锁的条件是什么-以及如何处理死锁问题",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "中断与系统调用",
-        "slug": "中断与系统调用",
-        "children": [
-          {
-            "level": 3,
-            "title": "用户态和内核态区别",
-            "slug": "用户态和内核态区别",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "中断和中断种类",
-            "slug": "中断和中断种类",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "系统调用",
-            "slug": "系统调用",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/posts/baseknowledge/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E9%9D%A2%E7%BB%8F.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "kube-apiserver源码",
     "headers": [
       {
@@ -350,6 +164,45 @@ export const searchIndex = [
       }
     ],
     "path": "/posts/code/K8s-kubectl-run.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "K8s-SharedInformer源码分析",
+    "headers": [
+      {
+        "level": 2,
+        "title": "作用说明",
+        "slug": "作用说明",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "结构说明",
+        "slug": "结构说明",
+        "children": [
+          {
+            "level": 3,
+            "title": "sharedIndexInformer",
+            "slug": "sharedindexinformer",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "controller",
+            "slug": "controller",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "sharedIndexInformer",
+            "slug": "sharedindexinformer-1",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/posts/code/k8s-informer-SharedInformer.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1073,6 +926,192 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "计算机网络汇总",
+    "headers": [
+      {
+        "level": 2,
+        "title": "应用层(应用,表示,会话)",
+        "slug": "应用层-应用-表示-会话",
+        "children": [
+          {
+            "level": 3,
+            "title": "http",
+            "slug": "http",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "https",
+            "slug": "https",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "DNS",
+            "slug": "dns",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "传输层",
+        "slug": "传输层",
+        "children": [
+          {
+            "level": 3,
+            "title": "TCP",
+            "slug": "tcp",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "UDP",
+            "slug": "udp",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "网络层",
+        "slug": "网络层",
+        "children": [
+          {
+            "level": 3,
+            "title": "ARP",
+            "slug": "arp",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "RARP",
+            "slug": "rarp",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "链路层",
+        "slug": "链路层",
+        "children": [
+          {
+            "level": 3,
+            "title": "以太网协议",
+            "slug": "以太网协议",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "MAC地址",
+            "slug": "mac地址",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "物理层",
+        "slug": "物理层",
+        "children": []
+      }
+    ],
+    "path": "/posts/baseknowledge/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E9%9D%A2%E7%BB%8F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "操作系统",
+    "headers": [
+      {
+        "level": 2,
+        "title": "进程",
+        "slug": "进程",
+        "children": [
+          {
+            "level": 3,
+            "title": "进程 vs 线程",
+            "slug": "进程-vs-线程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "进程调度",
+            "slug": "进程调度",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "守护、僵尸、孤儿进程的概念",
+            "slug": "守护、僵尸、孤儿进程的概念",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "进程通信",
+            "slug": "进程通信",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "内存",
+        "slug": "内存",
+        "children": [
+          {
+            "level": 3,
+            "title": "逻辑地址 Vs 物理地址 Vs 虚拟内存",
+            "slug": "逻辑地址-vs-物理地址-vs-虚拟内存",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "锁",
+        "slug": "锁",
+        "children": [
+          {
+            "level": 3,
+            "title": "请问死锁的条件是什么？以及如何处理死锁问题？",
+            "slug": "请问死锁的条件是什么-以及如何处理死锁问题",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "中断与系统调用",
+        "slug": "中断与系统调用",
+        "children": [
+          {
+            "level": 3,
+            "title": "用户态和内核态区别",
+            "slug": "用户态和内核态区别",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "中断和中断种类",
+            "slug": "中断和中断种类",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "系统调用",
+            "slug": "系统调用",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/posts/baseknowledge/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E9%9D%A2%E7%BB%8F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "docker原理",
     "headers": [
       {
@@ -1473,51 +1512,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "基础知识 分类",
-    "headers": [],
-    "path": "/category/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "计算机网络 标签",
-    "headers": [],
-    "path": "/tag/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "源码解读 分类",
     "headers": [],
     "path": "/category/%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "面经 标签",
-    "headers": [],
-    "path": "/tag/%E9%9D%A2%E7%BB%8F/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "编程语言 分类",
-    "headers": [],
-    "path": "/category/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "操作系统 标签",
-    "headers": [],
-    "path": "/tag/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "云原生 分类",
-    "headers": [],
-    "path": "/category/%E4%BA%91%E5%8E%9F%E7%94%9F/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1529,6 +1526,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "编程语言 分类",
+    "headers": [],
+    "path": "/category/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "apiserver 标签",
     "headers": [],
     "path": "/tag/apiserver/",
@@ -1536,9 +1540,23 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "基础知识 分类",
+    "headers": [],
+    "path": "/category/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "环境 标签",
     "headers": [],
     "path": "/tag/%E7%8E%AF%E5%A2%83/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "云原生 分类",
+    "headers": [],
+    "path": "/category/%E4%BA%91%E5%8E%9F%E7%94%9F/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1599,6 +1617,27 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "计算机网络 标签",
+    "headers": [],
+    "path": "/tag/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "面经 标签",
+    "headers": [],
+    "path": "/tag/%E9%9D%A2%E7%BB%8F/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "操作系统 标签",
+    "headers": [],
+    "path": "/tag/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "docker 标签",
     "headers": [],
     "path": "/tag/docker/",
@@ -1641,3 +1680,16 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

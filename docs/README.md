@@ -38,7 +38,7 @@ projects:
 #     desc: 自定义详细介绍
 #     link: https://你的自定义链接
 
-footer: 仰望星空,脚踏实地。
+footer: 备案号 鄂ICP备19011705号-2 
 ---
 <!-- 
 这是一个博客主页。

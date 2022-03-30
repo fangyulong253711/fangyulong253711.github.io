@@ -136,10 +136,22 @@ export const data = {
       "children": []
     }
   ],
-  "git": {},
   "readingTime": {
     "minutes": 4.75,
     "words": 1425
   },
   "filePathRelative": "posts/code/K8s-apiserver-run.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

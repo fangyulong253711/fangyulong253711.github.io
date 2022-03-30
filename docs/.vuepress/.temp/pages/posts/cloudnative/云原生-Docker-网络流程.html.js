@@ -122,10 +122,22 @@ export const data = {
       "children": []
     }
   ],
-  "git": {},
   "readingTime": {
     "minutes": 6.44,
     "words": 1931
   },
   "filePathRelative": "posts/cloudnative/云原生-Docker-网络流程.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

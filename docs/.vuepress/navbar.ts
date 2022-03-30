@@ -35,6 +35,7 @@ export default defineNavbarConfig([
         icon: "calculate",
         prefix: "code/",
         children: [
+          { text: "k8s-informer-SharedInformer", icon: "code", link: "k8s-informer-SharedInformer.html" },
           { text: "k8s-informer-reflector", icon: "code", link: "K8s-informer-reflector.html" },
           { text: "K8s-apiserver-run", icon: "code", link: "K8s-apiserver-run.html" },
           { text: "K8s-kubectl-run", icon: "code", link: "K8s-kubectl-run.html" },

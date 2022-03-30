@@ -295,10 +295,22 @@ export const data = {
       ]
     }
   ],
-  "git": {},
   "readingTime": {
     "minutes": 8.87,
     "words": 2662
   },
   "filePathRelative": "posts/language/编程语言-java-springboot进阶.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

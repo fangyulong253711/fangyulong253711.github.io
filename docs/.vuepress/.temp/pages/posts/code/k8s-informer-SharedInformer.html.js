@@ -1,28 +1,28 @@
 export const data = {
-  "key": "v-0b92cb1d",
-  "path": "/posts/cloudnative/%E4%BA%91%E5%8E%9F%E7%94%9F-Kubernetes-%E5%8E%9F%E7%90%86-apiserver.html",
-  "title": "kubernetes  APIServer工作原理",
+  "key": "v-25f4135b",
+  "path": "/posts/code/k8s-informer-SharedInformer.html",
+  "title": "K8s-SharedInformer源码分析",
   "lang": "zh-CN",
   "frontmatter": {
     "icon": "edit",
     "date": "2022-01-03T00:00:00.000Z",
     "category": [
-      "云原生"
+      "源码解读"
     ],
     "tag": [
       "k8s",
-      "apiserver",
+      "informer",
       "环境",
       "go",
       "cncf"
     ],
-    "summary": "kubernetes APIServer工作原理 APIserver设计 在 Kubernetes 项目中，一个 API 对象在 Etcd 里的完整资源路径，是由：Group（API 组）、Version（API 版本）和 Resource（API 资源类型）三个部分组成的。 通过这样的结构，整个 Kubernetes 里的所有 API 对象，实际上就可以用",
+    "summary": "K8s-SharedInformer源码分析 作用说明 SharedInformer，它是可以共享使用的。如果同一个资源的 Informer 被实例化多次，那么就会运行多个 ListAndWatch 操作，这会加大 APIServer 的压力。而 SharedInformer 通过一个 map 来让同一类资源的 Informer 实现共享一个 Refelct",
     "head": [
       [
         "meta",
         {
           "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/posts/cloudnative/%E4%BA%91%E5%8E%9F%E7%94%9F-Kubernetes-%E5%8E%9F%E7%90%86-apiserver.html"
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/posts/code/k8s-informer-SharedInformer.html"
         }
       ],
       [
@@ -36,7 +36,7 @@ export const data = {
         "meta",
         {
           "property": "og:title",
-          "content": "kubernetes  APIServer工作原理"
+          "content": "K8s-SharedInformer源码分析"
         }
       ],
       [
@@ -64,7 +64,7 @@ export const data = {
         "meta",
         {
           "property": "article:tag",
-          "content": "apiserver"
+          "content": "informer"
         }
       ],
       [
@@ -101,28 +101,41 @@ export const data = {
   "headers": [
     {
       "level": 2,
-      "title": "APIserver设计",
-      "slug": "apiserver设计",
+      "title": "作用说明",
+      "slug": "作用说明",
       "children": []
     },
     {
       "level": 2,
-      "title": "APIserver如何找到对象定义",
-      "slug": "apiserver如何找到对象定义",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "apiserver 创建 CronJob 过程",
-      "slug": "apiserver-创建-cronjob-过程",
-      "children": []
+      "title": "结构说明",
+      "slug": "结构说明",
+      "children": [
+        {
+          "level": 3,
+          "title": "sharedIndexInformer",
+          "slug": "sharedindexinformer",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "controller",
+          "slug": "controller",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "sharedIndexInformer",
+          "slug": "sharedindexinformer-1",
+          "children": []
+        }
+      ]
     }
   ],
   "readingTime": {
-    "minutes": 4.31,
-    "words": 1294
+    "minutes": 4.23,
+    "words": 1269
   },
-  "filePathRelative": "posts/cloudnative/云原生-Kubernetes-原理-apiserver.md"
+  "filePathRelative": "posts/code/k8s-informer-SharedInformer.md"
 }
 
 if (import.meta.webpackHot) {
